@@ -10,7 +10,7 @@ on:
       - oses/**
 jobs:
   push:
-    name: "yolks:${{ matrix.oses }}"
+    name: "images:${{ matrix.oses }}"
     permissions:
       contents: read
       packages: write
@@ -41,4 +41,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/pyrodactyl-oss/yolks:${{ matrix.oses }}
+            ghcr.io/pyrodactyl-oss/images:${{ matrix.oses }}

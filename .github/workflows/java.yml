@@ -10,7 +10,7 @@ on:
       - java/**
 jobs:
   push:
-    name: "yolks:java_${{ matrix.tag }}"
+    name: "images:java_${{ matrix.tag }}"
     permissions:
       contents: read
       packages: write
