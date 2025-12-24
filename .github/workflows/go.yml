@@ -11,6 +11,9 @@ on:
 jobs:
   push:
     name: "yolks:go_${{ matrix.tag }}"
+    permissions:
+      contents: read
+      packages: write
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false

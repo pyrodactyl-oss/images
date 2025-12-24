@@ -14,6 +14,9 @@ on:
 jobs:
   pushMultiArch:
     name: "yolks:installers_multiarch:${{ matrix.tag }}"
+    permissions:
+      contents: read
+      packages: write
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -46,6 +49,9 @@ jobs:
 
   pushAmd:
     name: "yolks:installers_amd:${{ matrix.tag }}"
+    permissions:
+      contents: read
+      packages: write
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false

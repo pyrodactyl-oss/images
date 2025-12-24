@@ -11,6 +11,9 @@ on:
 jobs:
   push:
     name: "yolks:${{ matrix.oses }}"
+    permissions:
+      contents: read
+      packages: write
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
