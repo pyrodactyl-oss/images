@@ -30,7 +30,6 @@ jobs:
           - 1.22
           - 1.24
           - 1.25
-          - 1.26
     steps:
       - uses: actions/checkout@v4
       # Setup QEMU for ARM64 Build

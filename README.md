@@ -62,8 +62,6 @@ is tagged correctly.
     * `ghcr.io/pyrodactyl-oss/images:go_1.24`
   * [`go1.25`](https://github.com/pyrodactyl-oss/images/tree/master/go/1.25)
     * `ghcr.io/pyrodactyl-oss/images:go_1.25`
-  * [`go1.26`](https://github.com/pyrodactyl-oss/images/tree/master/go/1.26)
-    * `ghcr.io/pyrodactyl-oss/images:go_1.26`
 * [`java`](https://github.com/pyrodactyl-oss/images/tree/master/java)
   * [`java8`](https://github.com/pyrodactyl-oss/images/tree/master/java/8)
     * `ghcr.io/pyrodactyl-oss/images:java_8`
