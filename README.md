@@ -29,14 +29,18 @@ is tagged correctly.
 
 * [`base oses`](https://github.com/pyrodactyl-oss/images/tree/master/oses)
   * [`alpine`](https://github.com/pyrodactyl-oss/images/tree/master/oses/alpine)
-    * `ghcr.io/pyrodactyl-oss/images:alpine`
+    * `ghcr.io/pyrodactyl-oss/oses:alpine`
   * [`debian`](https://github.com/pyrodactyl-oss/images/tree/master/oses/debian)
-    * `ghcr.io/pyrodactyl-oss/images:debian`
+    * `ghcr.io/pyrodactyl-oss/oses:debian`
+  * [`Ubuntu`](https://github.com/pyrodactyl-oss/images/tree/master/oses/ubuntu)
+    * `ghcr.io/pyrodactyl-oss/oses:ubuntu`
+
 * [`games`](https://github.com/pyrodactyl-oss/images/tree/master/games)
   * [`rust`](https://github.com/pyrodactyl-oss/images/tree/master/games/rust)
     * `ghcr.io/pyrodactyl-oss/games:rust`
   * [`source`](https://github.com/pyrodactyl-oss/images/tree/master/games/source)
     * `ghcr.io/pyrodactyl-oss/games:source`
+
 * [`golang`](https://github.com/pyrodactyl-oss/images/tree/master/go)
   * [`go1.14`](https://github.com/pyrodactyl-oss/images/tree/master/go/1.14)
     * `ghcr.io/pyrodactyl-oss/images:go_1.14`
@@ -62,6 +66,7 @@ is tagged correctly.
     * `ghcr.io/pyrodactyl-oss/images:go_1.24`
   * [`go1.25`](https://github.com/pyrodactyl-oss/images/tree/master/go/1.25)
     * `ghcr.io/pyrodactyl-oss/images:go_1.25`
+
 * [`java`](https://github.com/pyrodactyl-oss/images/tree/master/java)
   * [`java8`](https://github.com/pyrodactyl-oss/images/tree/master/java/8)
     * `ghcr.io/pyrodactyl-oss/images:java_8`
@@ -95,6 +100,7 @@ is tagged correctly.
     * `ghcr.io/pyrodactyl-oss/images:java_25`
   * [`java25 - OpenJ9`](https://github.com/pyrodactyl-oss/images/tree/master/java/25j9)
     * `ghcr.io/pyrodactyl-oss/images:java_25j9`
+
 * [`nodejs`](https://github.com/pyrodactyl-oss/images/tree/master/nodejs)
   * [`node12`](https://github.com/pyrodactyl-oss/images/tree/master/nodejs/12)
     * `ghcr.io/pyrodactyl-oss/images:nodejs_12`
@@ -110,6 +116,7 @@ is tagged correctly.
     * `ghcr.io/pyrodactyl-oss/images:nodejs_18`
   * [`node20`](https://github.com/pyrodactyl-oss/images/tree/master/nodejs/18)
     * `ghcr.io/pyrodactyl-oss/images:nodejs_20`
+
 * [`python`](https://github.com/pyrodactyl-oss/images/tree/master/python)
   * [`python3.7`](https://github.com/pyrodactyl-oss/images/tree/master/python/3.7)
     * `ghcr.io/pyrodactyl-oss/images:python_3.7`
@@ -129,6 +136,26 @@ is tagged correctly.
     * `ghcr.io/pyrodactyl-oss/images:python_3.15`
   * [`python3.15`](https://github.com/pyrodactyl-oss/images/tree/master/python/3.15)
     * `ghcr.io/pyrodactyl-oss/images:python_3.12`
+
+* [dotNet](/dotnet)
+  * [`dotnet2.1`](/dotnet/2.1)
+    * `ghcr.io/pyrodactyl-oss/images:dotnet_2.1`
+  * [`dotnet3.1`](/dotnet/3.1)
+    * `ghcr.io/pyrodactyl-oss/images:dotnet_3.1`
+  * [`dotnet5.0`](/dotnet/5)
+    * `ghcr.io/pyrodactyl-oss/images:dotnet_5`
+  * [`dotnet6.0`](/dotnet/6)
+    * `ghcr.io/pyrodactyl-oss/images:dotnet_6`
+  * [`dotnet7.0`](/dotnet/7)
+    * `ghcr.io/pyrodactyl-oss/images:dotnet_7`
+  * [`dotnet8.0`](/dotnet/8)
+    * `ghcr.io/pyrodactyl-oss/images:dotnet_8`
+  * [`dotnet9.0`](/dotnet/9)
+    * `ghcr.io/pyrodactyl-oss/images:dotnet_9`
+  * [`dotnet10.0`](/dotnet/10)
+    * `ghcr.io/pyrodactyl-oss/images:dotnet_10`
+
+
 
 ### Installation Images
 
