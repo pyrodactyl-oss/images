@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH ghcr.io/pyrodactyl-oss/images:debian
+FROM        --platform=$TARGETOS/$TARGETARCH ghcr.io/pyrodactyl-oss/os:debian
 
 LABEL       author="Torsten Widmann" maintainer="info@goover.de"
 
